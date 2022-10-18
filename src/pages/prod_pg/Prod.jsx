@@ -16,7 +16,7 @@ export default function Prod() {
   useEffect(() => {
     const fetchById = async () => {
       try {
-        const req = await fetch(`http://52.53.150.144:8081/products/${id}`)
+        const req = await fetch(`http://54.151.110.145:8080/products/${id}`)
         const res = await req.json()
         definirProds(res)
       } catch (error) {

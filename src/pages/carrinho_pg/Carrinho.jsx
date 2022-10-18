@@ -2,7 +2,7 @@ import React from "react";
 import "react-bootstrap/";
 import { Card, Button, Container } from "react-bootstrap/";
 import EmptyCart from "../../Components/EmptyCart";
-import "./Carrinho.css";
+// import "../carrinho_pg/Carrinho.css";
 import CarrinhoContext from "../../Contexts/CarrinhoContext";
 import { useContext, useState,useEffect } from "react";
 

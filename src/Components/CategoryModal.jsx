@@ -33,7 +33,7 @@ export default function AddCategoryModal (props) {
    )
  }
  try {
-   const response = await fetch('http://52.53.150.144:8081/categories', reqParams)
+   const response = await fetch('http://54.151.110.145:8080/categories', reqParams)
    if (response.status == 201) {
      Swal.fire({
        icon: 'success',

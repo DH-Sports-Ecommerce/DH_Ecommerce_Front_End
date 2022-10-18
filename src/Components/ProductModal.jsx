@@ -30,7 +30,7 @@ export default function AddProductModal (props) {
   useEffect(() => {
     const fetchCategories = async () => {
       try {
-        const req = await fetch(`http://52.53.150.144:8081/categories`)
+        const req = await fetch(`http://54.151.110.145:8080/categories`)
         const res = await req.json()
         setCategories(res)
       } catch (error) {
@@ -68,7 +68,7 @@ export default function AddProductModal (props) {
    )
  }
  try {
-   const request = await fetch('http://52.53.150.144:8081/products', reqParams)
+   const request = await fetch('http://54.151.110.145:8080/products', reqParams)
    const response = await request.json()
    if (request.status == 201) {
      Swal.fire({

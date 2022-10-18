@@ -25,7 +25,7 @@ export default function Admin() {
     }
     try {
       const req = await fetch(
-        `http://localhost:8080/products/${id}`,
+        `http://54.151.110.145:8080/products/${id}`,
         reqParams
       )
       if (req.status == 204) {
